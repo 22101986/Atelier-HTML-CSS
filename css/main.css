@@ -108,6 +108,40 @@ header>section {
     top: 10px;
     right: 10px;
   }
+
+header>div>a {
+  margin: 0 1em;
+}
+
+nav {
+  background-color: yellow;
+}
+
+.container {
+
+  height: 50vh; /*A éviter*/
+  background-color: brown;
+  width: 80%;
+  margin: 4em auto;
+  display: flex;
+  flex-wrap: wrap;;
+
+}
+
+.container main {
+  background-color: pink;
+  width: 66%;/*70-2-2*/
+  padding: 2%
+}
+
+.container aside {
+  background-color: fuchsia;
+  width: 30%;
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
